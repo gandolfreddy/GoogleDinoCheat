@@ -12,6 +12,9 @@
 (function () {
     'use strict';
 
+    /**
+     * Dino AI
+     */
     function dinoAI() {
         if (Runner.instance_.horizon.obstacles.length > 0) {
             let dist = Runner.instance_.horizon.obstacles[0].xPos;
